@@ -1,7 +1,7 @@
 import cuatro_en_linea
 
 def main():
-    cuatro_en_linea.presentación_del_juego("'4 en Fila', por Matías Dundic:")
+    cuatro_en_linea.presentar_programa()
 
     while True:
         tablero = cuatro_en_linea.pedir_tablero()
