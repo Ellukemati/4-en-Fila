@@ -185,7 +185,8 @@ def obtener_ganador(tablero: List[List[str]]) -> str:
 
 # INTERACCIÓN CON EL USUARIO / VISUALES
 
-def presentación_del_juego(título: str):
+def presentar_programa():
+    título = "4 en Línea, por Matías Dundic"
     print("╔" + "═" * len(título) + "╗")
     print("║" + título + "║")
     print("╚" + "═" * len(título) + "╝")
